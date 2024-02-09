@@ -1,0 +1,339 @@
+selam buraya not alacagizdir.
+____________________________________
+
+Sectionlu boş sayfa şablonu:
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="shortcut icon" href="img/palette.png" type="image/x-icon"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <h2 class="logo">MyPortfolio</h2>
+        <nav class="navigation">
+            <a href="index.html" >Ana Sayfa<span></span></a>
+            <a href="kesfet.html"class="active">Keşfet<span></span></a>
+            <a href="#">Galeri<span></span></a>
+            <a href="#">İletişim<spßan></span></a>
+        </nav>
+    </header>
+    
+    <section class="parallax">
+
+   
+    </section>
+
+<footer>
+<body>
+    <footer>
+    <div class="footer">
+    <div class="row">
+    <a href="#"><i class="fa fa-facebook"></i></a>
+    <a href="instagram.com/reddworks00"><i class="fa fa-instagram"></i></a>
+    <a href="#"><i class="fa fa-youtube"></i></a>
+    <a href="https://twitter.com/reddworks00"><i class="fa fa-twitter"></i></a>
+    </div>
+
+    <div class="row">
+    <ul>
+    <li><a href="#">İletişim</a></li>
+    <li><a href="#">Hizmetlerimiz</a></li>
+    <li><a href="#">Gizlilik Politikası</a></li>
+    <li><a href="#">Telif Hakkında</a></li>
+    <li><a href="#">Kariyer</a></li>
+    </ul>
+    </div>
+
+    <div class="row">
+        MyPortfolio Copyright © 2024  - All rights reserved / Tüm Hakları Saklıdır
+    </div>
+    </div>
+    </footer>
+
+        <script src="script.js"></script>
+    </html>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{ 
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 2em;
+    color: #1b283a;
+    user-select: none;
+}
+
+.navigation a{
+    position: relative;
+    font-size: 1.1em;
+    color: #1b283a;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 6px 15px;
+    transition: .5s;
+}
+
+.navigation a:hover,
+.navigation a.active {
+    color: #fff;
+}
+.navigation a span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1b283a ;
+    border-radius: 30px;
+    z-index: -1;
+    transform: scale(0);
+    transition: .5s;
+    opacity: 0;
+}
+
+.navigation a:hover span,
+.navigation a.active span{
+    transform: scale(1);
+    opacity: 1;
+}
+
+.parallax{
+    margin: auto;
+    background: #fff ;
+    height: auto;
+    margin-top: 80px;
+    margin-bottom: 300px;
+}
+.footer{
+    background:#0e141d;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#fff;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
+
+    /* sonrasi deneme -redd*/
+      .heading {
+          text-align: center;
+          font-size: 2.0em;
+          letter-spacing: 1px;
+          padding: 40px;
+          color: white;
+      }
+      
+      .gallery-image {
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      .gallery-image img {
+        height: px;
+        width: 350px;
+        transform: scale(1.0);
+        transition: transform 0.4s ease;
+      }
+      
+      .img-box {
+        box-sizing: content-box;
+        margin: 10px;
+        height: 250px;
+        width: 350px;
+        overflow: hidden;
+        display: inline-block;
+        color: white;
+        position: relative;
+        background-color: white;
+      }
+      
+      .caption {
+        position: absolute;
+        bottom: 5px;
+        left: 20px;
+        opacity: 0.0;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+      }
+      
+      .transparent-box {
+        height: 250px;
+        width: 350px;
+        background-color:rgba(0, 0, 0, 0);
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: background-color 0.3s ease;
+      }
+      
+      .img-box:hover img { 
+        transform: scale(1.1);
+      }
+      
+      .img-box:hover .transparent-box {
+        background-color:rgba(0, 0, 0, 0.5);
+      }
+      
+      .img-box:hover .caption {
+        transform: translateY(-20px);
+        opacity: 1.0;
+      }
+      
+      .img-box:hover {
+        cursor: pointer;
+      }
+      
+      .caption > p:nth-child(2) {
+        font-size: 0.8em;
+      }
+      
+      .opacity-low {
+        opacity: 0.5;
+      }
+
+      /* image slider (sağa doğru kayıyor) */
+          
+      .slider {
+        margin-top: 190px;
+        position: absolute;
+        width: 100%;
+        top: calc(50% - 97.25px);
+        overflow: hidden;
+     }
+      .slider .slider-row {
+        width: 2956px;
+        height: 194.5px;                 /*başka upload kabul etmiyor*/
+        background-image: url(https://cdn.discordapp.com/attachments/1039276180525809664/1196059863663509594/webakisi.png?ex=65b6408d&is=65a3cb8d&hm=b1c3ce73b75a8ff0bab9b3e9d4d2c4ce70c17ab797cf9fd21cf51cf3daf95414&);
+        background-size: 2956px 194.5px;
+        animation: slide 50s linear infinite;
+     }
+      @keyframes slide {
+        from {
+          background-position-x: 0;
+       }
+        to {
+          background-position-x: -2956px;
+       }
+     }
+
+     .texteffect{
+      padding-top: 50px;
+      font-size: 3.6em;
+      font-family: poppins;
+      text-align: center;
+      /* padding: 10px 20px; */
+      font-weight: 700;
+     }
+
+     .texteffectp{
+      padding-top: 18px;
+      font-size: 1.1em;
+      font-family: poppins;
+      padding-left: 100px;
+      padding-right: 100px;
+      text-align: justify;
+      font-weight: 300;
+     }
+      
+    #texteffect2{
+      padding-top: 50px;
+      font-size: 2.6em;
+      font-family: poppins;
+      text-align: center;
+      /* padding: 10px 20px; */
+      font-weight: 700;
+    }
+
+    #bold{
+      font-weight: bold;
+    }
